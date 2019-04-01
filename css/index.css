@@ -71,6 +71,20 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 700px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +126,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+   background: teal; 
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +197,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+
+.middle-content .top-two {
+    display: flex;
+    margin: 20px;
+   
+}
+
+.middle-content .bottom-two {
+    display: flex;
+    margin: 20px;
+}
+
+.middle-content .middle-text1 {
+    border-bottom: 1px dashed black;
+    padding-right: 20px;
+}
+
+.middle-content .middle-text2 {
+    border-bottom: 1px dashed black;
+    padding-right: 20px;
+}
+
+.middle-content .middle-text3 {
+    border-bottom: 1px dashed black;
+    padding-right: 20px;
+}
+
+.middle-content .middle-text4 {
+    border-bottom: 1px dashed black;
+    padding-right: 20px;
+}
+
+.middle-content button {
+    margin: 15px;
+}
+
+.middle-content h3 {
+    margin: 10px 0;
 }
