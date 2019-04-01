@@ -198,3 +198,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-content {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+
+.middle-content .top-two {
+    display: flex;
+    margin: 20px;
+   
+}
+
+.middle-content .bottom-two {
+    display: flex;
+    margin: 20px;
+}
+
+.bottom-content {
+    border-top: 1px dashed black;
+}
